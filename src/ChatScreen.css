@@ -1,0 +1,43 @@
+.ChatScreen__message{
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+.ChatScreen__txt{
+    margin-left:10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+.ChatScreen__timestamp{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+.ChatScreen__txt__self{
+    margin-left:auto; /* if you want to push something to max right do margin-left:auto vice n versa*/
+   background-color: #29b3cd;
+   padding : 15px;
+   border-radius: 20px;
+   color: white;
+}
+.ChatScreen__input{
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    border-top:1px solid lightgray ;
+}
+.ChatScreen__inputField{
+    flex:1;
+    padding: 5px;
+    border: none;
+}
+.input__button{
+    border: none;
+    margin-right: 20px;
+    background-color:white;
+    color:#fe3d71;
+    font-weight: bold;
+}
